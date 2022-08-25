@@ -2,12 +2,7 @@
 
 #include <string>
 
-
-
-
-
 using namespace std;
-
 
 
  typedef struct studentDetails
@@ -47,9 +42,6 @@ public:
     student(int size)
 
     {
-
-
-
         studentSize = size;
 
     }
@@ -61,18 +53,13 @@ public:
 };
 
 
-
 void student ::getStudentDetails(stud stud_rec[])
 
 {
 
-
-
     if (i < studentSize)
 
     {
-
-
 
         cout << endl
 
@@ -112,8 +99,6 @@ void student ::getStudentDetails(stud stud_rec[])
 
 }
 
-
-
 void student ::displayStudentDetails(stud stud_rec[])
 
 {
@@ -146,8 +131,6 @@ void student ::displayStudentDetails(stud stud_rec[])
 
 }
 
-
-
 int main()
 
 {
@@ -169,8 +152,6 @@ int main()
     stu.getStudentDetails(student_rec);
 
     stu.displayStudentDetails(student_rec);
-
-
 
     delete[] student_rec;
 
