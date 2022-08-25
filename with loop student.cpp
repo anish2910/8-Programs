@@ -6,8 +6,6 @@
 
 using namespace std;
 
-
-
 class Student  //creating a class
 
 {
@@ -42,9 +40,6 @@ void Student::setDetails()   //accessing outside the class
 
      cin.getline(name,50);
 
-   
-
-    
 
     cout << "Enter roll no : " << endl;
 
@@ -68,8 +63,6 @@ void Student::getDetails()
 
 }
 
-
-
 int main()
 
 {
@@ -81,17 +74,9 @@ int main()
     cout << "Enter the count of students : ";
 
     cin >> count;
-
-
-
-    
-
     if (count > 0) //checking the validity 
 
     {
-
-        
-
         Student studentArray[count];
 
         for (int i = 0; i < count; i++)
@@ -105,10 +90,6 @@ int main()
             studentArray[i].setDetails();
 
         }
-
-
-
-        
 
         cout << "\nYou have entered : " << endl;
 
