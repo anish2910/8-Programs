@@ -47,17 +47,8 @@ cout<<"Derived destructor"<<endl;
 };
 
 int main(){
-
-
-
 Base *p1=new Derived();
-
-
-
 delete p1;
-
-
-
 return 0;
 
 }
