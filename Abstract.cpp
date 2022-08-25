@@ -10,8 +10,6 @@ class Shape {
 
     float dimension;
 
-
-
    public:
 
     void getDimension() {
@@ -24,11 +22,7 @@ class Shape {
 
     virtual float calculateArea() = 0;
 
-    
-
 };
-
-
 
 // Derived class 1
 
@@ -44,8 +38,6 @@ class Square : public Shape {
 
 };
 
-
-
 // Derived class 2
 
 class Circle : public Shape {
@@ -60,15 +52,10 @@ class Circle : public Shape {
 
 };
 
-
-
 int main() {
 
-  
 
  	Shape *b;
-
- 
 
  	Square d;
 
@@ -84,8 +71,6 @@ int main() {
 
     cout << "Area of square: " << b->calculateArea()<< endl;
 
-    
-
     b=&c;//passing its ref
 
     cout << "\nEnter radius of the circle: ";
@@ -93,7 +78,6 @@ int main() {
     b->getDimension();
 
     cout << "Area of circle: " << b->calculateArea() << endl;
-
 
 
     return 0;
