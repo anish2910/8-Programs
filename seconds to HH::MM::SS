@@ -10,15 +10,11 @@ private:
 
     int seconds;
 
- 
-
 public:
 
     void getTime(void);
 
     void putTime(void);
-
-    
 
 };
 
@@ -32,7 +28,6 @@ void Time::getTime(void)
     cin>>seconds;
 }
 
- 
 
 void Time::putTime(void)
 
@@ -45,8 +40,6 @@ void Time::putTime(void)
 	int m = s/60;
 
 	s=s%60;
-
-	
 
     cout << "Time in HH::MM::SS"<<endl;
 
@@ -62,11 +55,8 @@ int main()
 
   t.getTime();
 
- 
-
   t.putTime();
 
     return 0;
-
 }
 
