@@ -1,0 +1,22 @@
+grep -c "ll" grepfilter.txt
+
+grep -h "hello" grepfilter.txt
+
+grep -l "o" *
+
+grep -n "linux" grepfilter.txt
+
+grep -e "linux" -e "hello" grepfilter.txt
+
+grep -o "welcome" grepfilter.txt
+
+grep ^hello  grepfilter.txt
+
+grep ands$ grepfilter.txt
+
+grep -i "LINUX" grepfilter.txt
+
+grep  "endl" ./*
+
+grep -winr "cin" ./
+
