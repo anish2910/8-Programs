@@ -1,0 +1,37 @@
+echo -e "enter a filename \c"
+read  filename
+
+
+if [ -s $filename ]
+then
+echo "found not empty"
+else
+echo "empty"
+fi 
+
+
+echo "90.08 + 9.9" | bc
+
+echo "scale = 5; 90.08 / 9.9" | bc
+echo "enter a number for square root"
+read num
+echo "scale=5; sqrt($num)" | bc
+
+echo -e "enter a filename \c"
+read  files
+
+
+#writing 
+
+if [ -f $files ]
+then
+	if [ -w $files ]
+	then
+	echo "start writing"
+	cat >> $files
+	else
+	echo "empty"
+	fi 
+else
+echo "no file"
+fi 
