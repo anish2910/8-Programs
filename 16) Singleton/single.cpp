@@ -40,7 +40,6 @@ int getWidth()
 }
 
 
-
 int getHeight()
 {
 	return height;
@@ -52,17 +51,13 @@ int getBright()
 }
 
 
-
 void display()
-
 {
-
 	cout<<"brightness"<<bright<<endl;
 	cout<<"height"<<height<<endl;
 	cout<<"width"<<width<<endl;}
 
 };
-
 
 
 Gamesetting * Gamesetting::instance=NULL;
