@@ -1,0 +1,22 @@
+Collection in Postman means a group of API requests that are already saved in the Postman and can be arranged into folders.
+Any number of folders can be created inside a collection.
+Putting similar requests into folders and collections helps the client in better organization and documentation of their requests.
+All the APIs requests can be stored and saved within a collection, and these collections can be shared amongst the team in the Postman workspace.
+
+
+**********Variables*******
+->can be created using collections menu
+->to access variables enclose them with {{<variable name>}}
+
+**********POST***********
+The post is an HTTP method like GET. We use this method when additional information needs to be sent to the server inside the body of the request.
+In general, when we submit a POST request, we expect to have some change on the server, such as updating, removing or inserting.
+
+One of the best examples of using POST request is the login page of Facebook or the login page of other sites;
+
+
+*********GET*************
+GET request contains all information inside the URL, and because of that,
+some people do not prefer to use GET request while they are sending some confidential data such as passwords.
+For example, if you search anything on Google, you actually using a GET request because there is no sensitive information, and you are just requesting the page.
+You can try to search for something on Google; you will get the same search string in the URL.
