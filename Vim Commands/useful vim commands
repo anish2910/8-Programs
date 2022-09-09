@@ -1,0 +1,38 @@
+vim <filename>
+open vim
+
+i
+insert mode
+
+Esc
+exit insert mode
+
+:w 
+save
+
+:wq
+save and quit
+
+:x
+save and quit
+
+:q
+quit and unsaved
+
+I
+insert at beginning of line
+
+yy
+copy
+
+p
+paste
+
+dd 
+delete a line
+
+/ backward search n 
+This is used for finding the next occurrence.
+
+ / backward search N
+This is somehow related to the above command but it searches in the opposite direction.
